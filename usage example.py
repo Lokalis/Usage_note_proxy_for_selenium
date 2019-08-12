@@ -2,7 +2,7 @@
 from browsermobproxy import Server
 from selenium import webdriver
 
-server = Server(r"browsermob-proxy-2.1.4\bin\browsermob-proxy")
+server = Server("path/to/browserproxy")
 
 """ Preparing proxy server """
 server.start()
